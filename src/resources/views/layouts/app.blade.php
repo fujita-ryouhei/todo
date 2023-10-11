@@ -14,6 +14,7 @@
     <header class="header">
         <div class="header__inner">
             <a href="/" class="header__logo">Todo</a>
+            <a href="/categories" class="category__logo">カテゴリ一覧</a>
         </div>
     </header>
 

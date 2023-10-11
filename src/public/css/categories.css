@@ -16,12 +16,6 @@
     padding: 60px 15px;
 }
 
-.create__form-ttl h2{
-    width: 70%;
-    margin: 20px auto;
-    font-size: 28px;
-}
-
 .create__form {
     justify-content: space-between;
     display: flex;
@@ -31,14 +25,14 @@
 }
 
 .create__form-item {
-    width: 60%;
+    width: 70%;
 }
 
 .create__form-item--input {
     display: block;
     padding: 10px;
     height: 40px;
-    width: 95%;
+    width: 100%;
     border: 1px solid #999;
     border-radius: 3px;
     margin-right: auto;
@@ -78,71 +72,9 @@
     cursor: pointer;
 }
 
-.search__form-ttl h2 {
-    width: 70%;
-    margin: 20px auto;
-    font-size: 28px;
-}
-
-.search__form {
-    justify-content: space-between;
-    display: flex;
-    margin: 0 auto;
-    width: 70%;
-    text-align: center;
-}
-
-.search__form-item {
-    width: 60%;
-}
-
-.search__form-item--input {
-    display: block;
-    padding: 10px;
-    height: 40px;
-    width: 95%;
-    border: 1px solid #999;
-    border-radius: 3px;
-    margin-right: auto;
-}
-
-.search__form-select {
-    height: 40px;
-    width: 20%;
-}
-
-.search__form-item--select {
-    display: block;
-    height: 40px;
-    width: 80%;
-    padding: 0 10px;
-    -webkit-appearance: none;
-    appearance: none;
-    cursor: pointer;
-    color: #333;
-    border: 1px solid #999;
-    border-radius: 3px;
-}
-
-.search__form-button {
-    width: 20%;
-}
-
-.search__form-button--submit {
-    padding: 10px;
-    background-color: #000;
-    border-radius: 3px;
-    border: 1px solid #000;
-    color: #fff;
-    font-size: 14px;
-    width: 100%;
-    height: 40px;
-    cursor: pointer;
-}
-
 .todo__table {
     max-width: 1230px;
-    margin: 30px auto;
+    margin: 50px auto;
     text-align: left;
     width: 70%;
 }
@@ -153,6 +85,10 @@
 
 .todo__table-row {
     border-bottom: 1px solid #999;
+}
+
+.todo__table-header {
+    font-size: 20px;
 }
 
 .todo__table-item:first-of-type {
