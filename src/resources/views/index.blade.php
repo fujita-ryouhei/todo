@@ -46,10 +46,10 @@
     <div class="search__form-ttl">
         <h2>Todo検索</h2>
     </div>
-    <form action="/todos" class="search__form" method='post'>
+    <form action="/todos/search" class="search__form" method='get'>
         @csrf
         <div class="search__form-item">
-            <input type="text" class="search__form-item--input" name='content'>
+            <input type="text" class="search__form-item--input" name="keyword" value="{{ old('keyword') }}">
         </div>
         <div class="search__form-select">
             <select name="category_id" id="" class="search__form-item--select">
